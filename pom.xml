@@ -5,6 +5,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>lab-asyn-tx</module>
+        <module>lab-jase-time</module>
+        <module>lab-jase-encryptor</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -61,6 +63,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>2.9.9</version>
         </dependency>
 
     </dependencies>
