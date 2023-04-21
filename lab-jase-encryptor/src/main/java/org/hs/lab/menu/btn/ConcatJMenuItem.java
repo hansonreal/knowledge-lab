@@ -1,7 +1,5 @@
 package org.hs.lab.menu.btn;
 
-import org.hs.lab.listener.ConcatActionListener;
-
 import javax.swing.*;
 import java.awt.event.ActionListener;
 

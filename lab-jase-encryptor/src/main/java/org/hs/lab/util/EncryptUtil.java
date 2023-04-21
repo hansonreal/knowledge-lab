@@ -1,11 +1,8 @@
 package org.hs.lab.util;
 
-import org.jasypt.encryption.StringEncryptor;
 import org.jasypt.encryption.pbe.PBEStringEncryptor;
-import org.jasypt.encryption.pbe.PooledPBEStringEncryptor;
 import org.jasypt.encryption.pbe.StandardPBEStringEncryptor;
 import org.jasypt.encryption.pbe.config.SimpleStringPBEConfig;
-import org.springframework.context.annotation.Bean;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
